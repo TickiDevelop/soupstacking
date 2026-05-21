@@ -24,12 +24,17 @@ public class ItemMixin {
             
             // Check if the name contains "soup" in various languages
             // English: soup, Russian: суп, German: suppe, French: soupe, Spanish: sopa, Italian: zuppa
+            // Russian stewed items: тушённый, тушёная, тушёное, тушённые
             return displayName.contains("soup") || 
                    displayName.contains("суп") || 
                    displayName.contains("suppe") || 
                    displayName.contains("soupe") || 
                    displayName.contains("sopa") || 
-                   displayName.contains("zuppa");
+                   displayName.contains("zuppa") ||
+                   displayName.contains("тушённый") ||
+                   displayName.contains("тушёная") ||
+                   displayName.contains("тушёное") ||
+                   displayName.contains("тушённые");
         } catch (Exception e) {
             return false;
         }
