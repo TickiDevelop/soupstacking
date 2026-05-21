@@ -98,14 +98,11 @@ public class ItemMixin {
                    displayName.contains("supo") || // Esperanto
                    displayName.contains("pulmenti") || // Latin
                    // Stewed items in various languages
-                   displayName.contains("тушёный") ||
-                   displayName.contains("тушёная") ||
-                   displayName.contains("тушёное") ||
-                   displayName.contains("тушённые") ||
-                   displayName.contains("тушеный") ||
+                   displayName.contains("тушён") ||
+                   displayName.contains("тушен") ||
                    displayName.contains("тушковані") ||
                    displayName.contains("задушени") ||
-                   displayName.contains("душенé") ||
+                   displayName.contains("душе") ||
                    displayName.contains("dušena") ||
                    displayName.contains("duszony") ||
                    displayName.contains("dušené") ||
